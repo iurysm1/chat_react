@@ -1,0 +1,165 @@
+.conteudo{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: rgb(27, 26, 26);
+  padding-left: 50px;
+  
+
+}
+
+
+aside{
+  height: 100%;
+  width: 10%;
+  color: white;
+}
+
+main{
+  width: 87%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 50px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.barraLateral{
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+
+section, .chat_wrapper{
+  width: 100%;
+  height: 80%;
+  background-color: rgb(85, 85, 85);
+  border-radius: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.chat_wrapper{
+  width: 100% !important;
+  height: 100% !important;
+  color: white;
+
+}
+
+ul, li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-right: 5px
+}
+
+li{
+  background-image: linear-gradient( to left, rgb(0, 106, 226), rgba(72, 158, 192, 0.959));
+  margin-bottom: 10px;
+  border-radius: 16px;
+  padding: 10px;
+  transition: all .5s linear ease-in;
+}
+
+li:hover{
+  background-image: linear-gradient(to right, rgba(255, 94, 0, 0.959) ,rgba(255, 125, 50, 0.959) );}
+
+.chat_content{
+  width: 95%;
+  height: 80%;
+  flex-direction: column;
+  display: flex;
+  overflow-y: auto !important;
+  padding: 0 20px;
+
+}
+
+.input_group{
+  width: 95% !important;
+  height: 70px;
+  border-radius: 20px;
+  background-color: rgb(27, 26, 26);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  opacity: 0;
+}
+
+.input_group input, .input_group button{
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.input_group input{
+  width: 90%;
+}
+
+.input_group button{
+  width: 5%;
+  font-size: 20px;
+   font-weight: 500;
+}
+
+.input_group button svg{
+  width: 90%;
+  height: 90%;
+}
+
+.menssagem{
+  width: fit-content;
+  max-width: 70%;
+  padding: 25px;
+  color: white;
+  font-size: 20px;
+}
+
+.user{
+  margin-left: auto;
+  border-radius: 12px 12px 0px 12px;
+  background-image: linear-gradient(to right, rgba(255, 94, 0, 0.959) ,rgba(255, 125, 50, 0.959) );
+}
+
+.ia{
+  border-radius: 0 12px 12px 12px;
+  background-image: linear-gradient( to left, rgb(0, 106, 226), rgba(72, 158, 192, 0.959));
+}
+
+.abraUmChat{
+  margin: auto;
+  border-radius: 12px;
+  pointer-events: none;
+  position: absolute;
+  background-image: linear-gradient( to left, rgb(0, 106, 226), rgba(72, 158, 192, 0.959));
+  position: static;
+}
+
+.novoChat{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.novoChat button{
+  background-image: linear-gradient(to right, rgba(255, 94, 0, 0.959) ,rgba(255, 125, 50, 0.959) );
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.novoChat button:hover{
+  background-image: linear-gradient( to left, rgb(0, 106, 226), rgba(72, 158, 192, 0.959));
+}
