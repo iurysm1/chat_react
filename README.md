@@ -1,4 +1,4 @@
-# Chat Bot com OpenAI e LangChain
+# Chat Bot com React, OpenAI e LangChain
 
 Fiz um chatbot (semelhante ao ChatGPT) usando a API da OpenAI. Ele funciona igual ao ChatGPT.
 Usei o framework **LangChain**.
