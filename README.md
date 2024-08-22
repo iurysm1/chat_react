@@ -4,9 +4,6 @@ Fiz um chatbot (semelhante ao ChatGPT) usando a API da OpenAI. Ele funciona igua
 Usei o framework **LangChain**.
 Esse framework é voltado a LLM's e nos ajuda a produzir softwares com IA's.
 
-Como uso muitas ferramentas diferentes, e todas precisam de chaves de acesso, pode acabar dando algum problema. 
-Por mais que eu tenha testado em 2 computadores diferentes, para prevenir, deixei um vídeo meu usando a aplicação para mostrar para o professor.
-
 ---
 
 ## REQUISITOS:
